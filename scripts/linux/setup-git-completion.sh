@@ -1,0 +1,1 @@
+grep -qxF 'source ~/.git-completion.bash' ~/.bashrc || printf "\nsource ~/.git-completion.bash\n" >> ~/.bashrc
