@@ -30,6 +30,8 @@ PS1="\[\033[32m\]\w\[\033[33m\]\$(GIT_PS1_SHOWUNTRACKEDFILES=1 GIT_PS1_SHOWDIRTY
 
 # Aliases
 alias lsa='ls -GFlah'
+alias mv='mv --backup=numbered'
+alias cp='cp --backup=numbered'
 
 # Terraform
 export PATH="$PATH:/Users/lalver1/bin"
