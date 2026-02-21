@@ -17,6 +17,10 @@ chruby ruby-3.1.3
 # Use Bash completion
 source "${HOMEBREW_PREFIX}/etc/profile.d/bash_completion.sh"
 
+# GNU coreutils
+# https://smallsharpsoftwaretools.com/tutorials/gnu-mac/
+export PATH="$(brew --prefix coreutils)/libexec/gnubin:$PATH"
+
 # Setup prompt
 source "${HOMEBREW_PREFIX}/Cellar/git/2.49.0/etc/bash_completion.d/git-prompt.sh"
 PS1="\[\033[32m\]\w\[\033[33m\]\$(GIT_PS1_SHOWUNTRACKEDFILES=1 GIT_PS1_SHOWDIRTYSTATE=1 __git_ps1)\[\033[00m\]\n$ "
