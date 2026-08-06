@@ -29,7 +29,8 @@ PS1="\[\033[32m\]\w\[\033[33m\]\$(GIT_PS1_SHOWUNTRACKEDFILES=1 GIT_PS1_SHOWDIRTY
 #eval "$(starship init bash)"
 
 # Aliases
-alias lsa='ls -GFlah'
+alias ls='ls --color=auto'
+alias lsa='ls -Flah'
 alias mv='mv --backup=numbered'
 alias cp='cp --backup=numbered'
 
