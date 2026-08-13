@@ -3,6 +3,7 @@
 # --- Configuration ---
 #----------------------
 
+# Get the absolute path to the directory of this script
 DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 BACKUP_DIR="$HOME/.dotfiles_backup/$(date +%Y%m%d_%H%M%S)"
 SCRIPTS_DIR="$DOTFILES_DIR/scripts"
